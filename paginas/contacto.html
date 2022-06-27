@@ -46,42 +46,41 @@
         <div class="container-fluid">
             <p>Si tenés alguna consulta o querés reservar, completá el formulario y nos estaremos contactado con vos a
                 la brevedad.</p>
-                <p>Los items marcados con un asterisco "(*)" son obligatorios</p>
+                <p>Los items marcados con un asterisco "<span id="rojo">*</span>" son obligatorios</p>
         </div>
 
-        <form>
-            <div class="container-fluid text-left align-items-center">
+        <form class="col-md-10">
+            <div class="container-fluid text-left">
                 <div class="form-group">
-
                     <div class="form-group">
-                        <div class="form-group col-md-8">
-                            <label for="inputNombre">Nombre (*)</label>
+                        <div class="form-group col-md-12">
+                            <label for="inputNombre">Nombre <span id="rojo">*</span></label>
                             <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
                         </div>
-                        <div class="form-group col-md-8">
-                            <label for="inputEmail">Email (*)</label>
+                        <div class="form-group col-md-12">
+                            <label for="inputEmail">Email <span id="rojo">*</span></label>
                             <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                         </div>
-                        <div class="form-group col-md-8">
-                            <label for="inputTipo">Quiero... (*)</label>
+                        <div class="form-group col-md-12">
+                            <label for="inputTipo">Quiero... <span id="rojo">*</span></label>
                             <select id="inputTipo" class="form-control">
                                 <option selected>Reservar</option>
                                 <option>Consultar</option>
                             </select>
                         </div>
                     </div>
-                    <div class="">
-                        <div class="col-md-3">
+                    <div class="form-group">
+                        <div class="col-md-5">
                             <label for="inputCantidadNoches">Cantidad de noches</label>
                             <input type="number" class="form-control" id="inputCantidadNoches" placeholder="1">
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-5">
                             <label for="inputCantidadPersonas">Cantidad de personas</label>
                             <input type="number" class="form-control" id="inputCantidadPersonas" placeholder="2">
                         </div>
                     </div>
-                    <div class="form-group col-md-8">
-                        <label for="textareaMensaje">Dejanos un mensaje (*)</label>
+                    <div class="form-group col-md-12">
+                        <label for="textareaMensaje">Dejanos un mensaje <span id="rojo">*</span></label>
                         <textarea class="form-control" id="textareaMensaje" rows="3"></textarea>
                     </div>
                     <button type="submit" class="btn btn-dark">Enviar</button>

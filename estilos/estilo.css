@@ -1,4 +1,25 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(238, 208, 170);
+    font-weight: 500;
+    background-color: rgb(240, 208, 167);
+}
+main{
+    margin:20px 0px 20px 0px;
+}
+
+.banda-horizontal{
+    margin-top: 20px;
+}
+
+.subtitulo{
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#rojo{
+    color: red;
 }
